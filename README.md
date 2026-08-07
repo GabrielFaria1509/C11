@@ -1,27 +1,49 @@
 # 📊 Ciência de Dados - Inatel
 
-Este repositório armazena meus exercícios, projetos práticos e anotações voltados para a área de **Ciência de Dados**, desenvolvidos com Python durante a graduação no **Instituto Nacional de Telecomunicações (Inatel)**.
+Este repositório reúne meus exercícios, atividades, anotações e códigos desenvolvidos na disciplina de **Ciência de Dados**, utilizando **Python**, durante a graduação no **Instituto Nacional de Telecomunicações (Inatel)**.
 
-O objetivo principal é documentar meu progresso, organizar os códigos e facilitar consultas futuras sobre análise de dados, machine learning e estatística.
+O objetivo é documentar meu aprendizado, organizar os materiais da disciplina e facilitar consultas futuras sobre programação, análise de dados, estatística e conceitos de Ciência de Dados.
 
 ---
 
 ## 🛠️ Tecnologias e Ferramentas Utilizadas
 
-Durante os exercícios, as seguintes tecnologias e bibliotecas são frequentemente utilizadas:
+Ao longo das atividades são utilizadas as seguintes tecnologias:
 
-* **Linguagem:** [Python 3.x](https://www.python.org/)
-* **Manipulação e Análise de Dados:** Pandas, NumPy
-* **Visualização de Dados:** Matplotlib
-* **Ambiente de Desenvolvimento:** PyCharm/Google Colab/VisualStudioCode
+- **Linguagem:** [Python 3.x](https://www.python.org/)
+- **Bibliotecas:** Pandas, NumPy e Matplotlib
+- **Ambientes de Desenvolvimento:** Visual Studio Code, PyCharm e Google Colab
 
 ---
 
 ## 📁 Estrutura do Repositório
 
-Os exercícios estão organizados por pastas, separadas por exercícios de cada capítulo. 
-
 ```text
-📦 C11
- ┣  Cap2exercicios
- ┗ 📜 README.md                  # Documentação do repositório
+📦 Ciência de Dados
+├── 📂 Atividades          # Exercícios e listas de atividades
+│   └── 📄 Cap3Atividades.py
+├── 📂 Aulas               # Códigos e exemplos vistos em aula
+└── 📜 README.md           # Documentação do repositório
+```
+
+---
+
+## 📚 Conteúdo
+
+O repositório está organizado para separar o conteúdo estudado em:
+
+- **📂 Aulas:** exemplos, demonstrações e códigos desenvolvidos durante as aulas.
+- **📂 Atividades:** exercícios propostos, listas de atividades e implementações desenvolvidas ao longo da disciplina.
+
+À medida que a disciplina avança, novos arquivos e pastas serão adicionados para manter a organização do conteúdo.
+
+---
+
+## 🎯 Objetivo
+
+Este repositório tem como finalidade:
+
+- Organizar os materiais da disciplina;
+- Registrar minha evolução em Ciência de Dados;
+- Servir como material de consulta para estudos futuros;
+- Compartilhar minha evolução com Python, estatística e análise de dados.
