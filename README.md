@@ -21,7 +21,6 @@ Ao longo das atividades são utilizadas as seguintes tecnologias:
 ```text
 📦 Ciência de Dados
 ├── 📂 Atividades          # Exercícios e listas de atividades
-│   └── 📄 Cap3Atividades.py
 ├── 📂 Aulas               # Códigos e exemplos vistos em aula
 └── 📜 README.md           # Documentação do repositório
 ```
@@ -35,7 +34,7 @@ O repositório está organizado para separar o conteúdo estudado em:
 - **📂 Aulas:** exemplos, demonstrações e códigos desenvolvidos durante as aulas.
 - **📂 Atividades:** exercícios propostos, listas de atividades e implementações desenvolvidas ao longo da disciplina.
 
-À medida que a disciplina avança, novos arquivos e pastas serão adicionados para manter a organização do conteúdo.
+À medida que a disciplina avança, novos conteúdos serão adicionados para manter a organização do repositório.
 
 ---
 
