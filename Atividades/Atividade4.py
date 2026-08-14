@@ -116,6 +116,7 @@ media_max_linha = medias_linhas.max()
 
 #Contagem elementos da matriz
 elemento,contagem = np.unique(mtz_aleat,return_counts=True)
+#elemento2vezes = elemento[contagem==2]
 for e,c in zip(elemento,contagem):   #Zip junta dois arrays/listas elemento por elemento
     if c == 2:
         print(f"Elemento ({e}) encontrado 2 vezes")
