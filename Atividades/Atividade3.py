@@ -45,62 +45,20 @@ print(f"Fichário do aluno : {aluno}")#Alternativa ao print("Fichário do aluno 
 
 #Exercício 4
 
-nome_pessoa1 = str(input("Digite o nome da primeira pessoa: "))
-peso_pessoa1 = float(input("Digite o peso da primeira pessoa: "))
+cont = 0
+dados = {}
 
-nome_pessoa2 = str(input("Digite o nome da segunda pessoa: "))
-peso_pessoa2 = float(input("Digite o peso da segunda pessoa: "))
+while(cont<3):
+  nome = str(input("Nome : "))
+  peso = float(input("Peso : "))
+  dados[nome] = peso
+  cont+=1
+  mais_pesado = max(dados, key = dados.get)
+  mais_leve = min(dados, key = dados.get)
 
-nome_pessoa3 = str(input("Digite o nome da terceira pessoa: "))
-peso_pessoa3 = float(input("Digite o peso da terceira pessoa: "))
+print(f"Mais pesado : {mais_pesado}")
+print(f"Mais leve : {mais_leve}")
 
-
-
-
-#Uso de uma lista de deicionários para armazenar os dados das pessoas, peso pode mudar etc
-#Crio dicionário das pessoas
-pessoa1 = {
-    "nome": nome_pessoa1,
-    "peso": peso_pessoa1
-}
-pessoa2 = {
-    "nome": nome_pessoa2,
-    "peso": peso_pessoa2
-}
-pessoa3 = {
-    "nome": nome_pessoa3,
-    "peso": peso_pessoa3
-}
-
-pessoas = [pessoa1, pessoa2, pessoa3]
-
-
-
-maior_peso = max(pessoas, key = lambda p: p["peso"])
-menor_peso = min(pessoas, key = lambda p: p["peso"])
-
-#Jeito alternativo
-#cont = 0
-#dados = {}
-
-#While(cont<3)
-#nome = input("Nome : ")
-#peso = input(int("Peso : "))
-#dados[nome] = peso
-#cont+=1
-#mais_pesado = max(dados, key = dados.get)
-#mais_leve = min(dados, key = dados.get)
-
-# key=lambda diz ao max() e min() para comparar os dicionários
-# pelo valor de "peso" de cada um, e não pelo dicionário inteiro
-
-# lambda é uma forma de criar uma função rápida, sem usar def
-
-# p é o parâmetro da função lambda, representa cada pessoa da lista
-# p["peso"] é o valor que a função retorna (o peso daquela pessoa)
-
-print(f"A pessoa com maior peso é {maior_peso['nome']} com {maior_peso['peso']} kg")
-print(f"A pessoa com menor peso é {menor_peso['nome']} com {menor_peso['peso']} kg")
 
 #Exercício 5
 
