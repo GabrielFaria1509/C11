@@ -79,6 +79,18 @@ pessoas = [pessoa1, pessoa2, pessoa3]
 maior_peso = max(pessoas, key = lambda p: p["peso"])
 menor_peso = min(pessoas, key = lambda p: p["peso"])
 
+#Jeito alternativo
+#cont = 0
+#dados = {}
+
+#While(cont<3)
+#nome = input("Nome : ")
+#peso = input(int("Peso : "))
+#dados[nome] = peso
+#cont+=1
+#mais_pesado = max(dados, key = dados.get)
+#mais_leve = min(dados, key = dados.get)
+
 # key=lambda diz ao max() e min() para comparar os dicionários
 # pelo valor de "peso" de cada um, e não pelo dicionário inteiro
 
