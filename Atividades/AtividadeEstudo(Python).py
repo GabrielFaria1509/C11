@@ -44,7 +44,7 @@ palavra = str(input("Digite uma palavra : "))
 print(f"Primeiro caractere : {palavra[0]}")
 print(F"Último caractere : {palavra[-1]}")
 print(f"1 a 3 caracteres : {palavra[0:3]}")
-print(f"3 últimos caracteres : {palavra[-1:-4]}")
+print(f"3 últimos caracteres : {palavra[-3:]}")
 print(f"Palavra invertida : {palavra[::-1]}")
 
 
