@@ -31,14 +31,12 @@ print(f"Triplo de num : {num*3}")
 num,num2 = num2,num
 print(f"Valores após troca -> num : {num} num2 : {num2}")
 
-lado = int(input("Digite o valor do lado : "))
+lado = float(input("Digite o valor do lado : "))
 area = lado*lado
 print(f"Aréa : {area}")
 print(f"Aréa : {mt.sqrt(area)}")
 print(f"Aréa : {mt.ceil(area)}")
 print(f"Aréa : {mt.floor(area)}")
-
-print(f"Fatorial do valor de lado : {mt.factorial(lado)}")
 
 palavra = str(input("Digite uma palavra : "))
 print(f"Primeiro caractere : {palavra[0]}")
